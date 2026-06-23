@@ -1,18 +1,18 @@
 # Patient Heart Disease Risk Classification Model
 
-A no-code machine learning project built in **Orange Data Mining** that classifies patients as high-risk or low-risk for heart disease, paired with a full AI governance report covering explainability, guardrails, monitoring, compliance, and sustainability.
+A no-code machine learning project built in **Orange Data Mining** that classifies patients as high-risk or low-risk for heart disease.
 
 ## Overview
 
-This project trains and compares two classification models — **Random Forest** and **Logistic Regression** — to predict heart disease risk from patient health data. The workflow is built entirely in Orange's visual, no-code environment, and the final model is evaluated, explained using SHAP values, and documented for responsible deployment in a healthcare setting.
+This project trains and compares two classification models — **Random Forest** and **Logistic Regression** — to predict heart disease risk from patient health data. The workflow is built entirely in Orange's visual, no-code environment.
 
 **Best model:** Random Forest
 | Metric | Score |
 |---|---|
 | AUC | 0.999 |
-| Accuracy | 0.985 |
-| Precision | 0.985 |
-| Recall | 0.985 |
+| F1 | 0.987 |
+| Precision | 0.987 |
+| Recall | 0.987 |
 
 ## Repository Structure
 
@@ -24,8 +24,6 @@ This project trains and compares two classification models — **Random Forest**
 │   └── patient_heart_disease_risk_model_IS7085.ows   # Orange workflow file
 ├── images/
 │   └── orange_model_final_project_Weil.png           # Workflow diagram screenshot
-├── reports/
-│   └── IS7085_Final_Assignment_Governance_Report_Weil.pdf  # Full governance report
 └── README.md
 ```
 
@@ -45,7 +43,7 @@ To explore or modify the workflow, open `workflow/patient_heart_disease_risk_mod
 
 ## Dataset
 
-- **Source:** [Kaggle](https://www.kaggle.com/)
+- **Source:** [Kaggle]([https://www.kaggle.com/](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset))
 - **Size:** 1,025 patient records, 13 predictor variables
 - **Target:** Binary label — high risk (1) vs. low risk (0) of heart disease
 - **Features include:** age, sex, chest pain type (`cp`), resting blood pressure (`trestbps`), cholesterol (`chol`), fasting blood sugar (`fbs`), resting ECG (`restecg`), max heart rate (`thalach`), exercise-induced angina (`exang`), ST depression (`oldpeak`), slope, number of major vessels (`ca`), and thalassemia test result (`thal`)
@@ -59,14 +57,6 @@ SHAP values were used to interpret model predictions. The top three most influen
 
 These align with established clinical risk indicators for heart disease, supporting the model's fairness and clinical plausibility.
 
-## Governance & Responsible AI
-
-The full governance report (`reports/IS7085_Final_Assignment_Governance_Report_Weil.pdf`) covers:
-- **Guardrails** – input data filters, output constraints (decision-support only, not diagnostic), and red-teaming strategies
-- **Monitoring plan** – drift detection, feedback collection from healthcare professionals, and incident response procedures
-- **Compliance** – auditability, transparency commitments, and alignment with HIPAA and the EU AI ethics framework
-- **Sustainability** – energy usage, model size, and strategies for minimizing carbon footprint
-
 ## Tools Used
 
 - [Orange Data Mining](https://orangedatamining.com/) — no-code visual ML platform
@@ -76,6 +66,6 @@ The full governance report (`reports/IS7085_Final_Assignment_Governance_Report_W
 
 Jay Weil
 
-## License
-
-This project is shared for academic and educational purposes. The dataset is sourced from Kaggle under its original licensing terms.
+M.S. Business Analytics
+B.S. Electrical Engineering
+University of Cincinnati
