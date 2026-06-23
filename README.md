@@ -14,19 +14,6 @@ This project trains and compares two classification models — **Random Forest**
 | Precision | 0.987 |
 | Recall | 0.987 |
 
-## Repository Structure
-
-```
-.
-├── data/
-│   └── heart_disease_dataset.csv          # Source dataset (1,025 patient records, 13 predictors)
-├── workflow/
-│   └── patient_heart_disease_risk_model_IS7085.ows   # Orange workflow file
-├── images/
-│   └── orange_model_final_project_Weil.png           # Workflow diagram screenshot
-└── README.md
-```
-
 ## The Workflow
 
 ![Orange Workflow Diagram](images/orange_model_final_project_Weil.png)
