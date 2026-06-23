@@ -40,7 +40,7 @@ To explore or modify the workflow, open `patient_heart_disease_risk_model_IS7085
 
 ## Dataset
 
-- **Source:** Kaggle: (https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
+- **Source:** Kaggle: (https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
 - **Size:** 1,025 patient records, 13 predictor variables
 - **Target:** Binary label — high risk (1) vs. low risk (0) of heart disease
 - **Features include:** age, sex, chest pain type (`cp`), resting blood pressure (`trestbps`), cholesterol (`chol`), fasting blood sugar (`fbs`), resting ECG (`restecg`), max heart rate (`thalach`), exercise-induced angina (`exang`), ST depression (`oldpeak`), slope, number of major vessels (`ca`), and thalassemia test result (`thal`)
