@@ -26,7 +26,17 @@ The pipeline:
 5. **Feature Importance / Explain Model / Explain Prediction (Pythagorean Forest & Tree)** – SHAP-based interpretability.
 6. **Predictions** – generate final classifications.
 
-To explore or modify the workflow, open `workflow/patient_heart_disease_risk_model_IS7085.ows` in [Orange Data Mining](https://orangedatamining.com/) (free, open-source).
+To explore or modify the workflow, open `patient_heart_disease_risk_model_IS7085.ows` in [Orange Data Mining](https://orangedatamining.com/) (free, open-source).
+
+## Results
+
+**ROC Curve** — Random Forest (green) clearly outperforms Logistic Regression (orange), consistent with its AUC of 0.999 vs. a visibly weaker curve for the logistic model.
+
+![Orange Workflow Diagram](images/orange_model_final_project_ROC_cruve_Weil.png)
+
+**Confusion Matrix** — Random Forest correctly classified 809 of 820 test cases, with only 4 false positives and 7 false negatives.
+
+![Orange Workflow Diagram](images/orange_model_final_project_confusion_matrix_Weil.png)
 
 ## Dataset
 
